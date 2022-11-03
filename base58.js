@@ -1,4 +1,4 @@
-const base58 = require('bs58');
+const base58 = require("bs58");
 
 const key = require(process.argv[2]);
 
