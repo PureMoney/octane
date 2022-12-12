@@ -1150,18 +1150,6 @@
     "decimal.js" "^10.3.1"
     "tiny-invariant" "^1.2.0"
 
-"@orca-so/whirlpools-sdk@^0.5.0":
-  "integrity" "sha512-HhoZo+q1KXxAEjfVbbKTdW2B8APxDpvsRCX/AqxnN2/DOI3M+p1ZWHkrrHNINbygwJXE6Mi+jwx7jTBT2hbtVw=="
-  "resolved" "https://registry.npmjs.org/@orca-so/whirlpools-sdk/-/whirlpools-sdk-0.5.3.tgz"
-  "version" "0.5.3"
-  dependencies:
-    "@metaplex-foundation/mpl-token-metadata" "1.2.5"
-    "@orca-so/common-sdk" "~0.1.1"
-    "@project-serum/anchor" "~0.25.0"
-    "@solana/spl-token" "^0.1.8"
-    "decimal.js" "^10.3.1"
-    "tiny-invariant" "^1.2.0"
-
 "@parcel/watcher@2.0.4":
   "integrity" "sha512-cTDi+FUDBIUOBKEtj+nhiJ71AZVlkAsQFuGQTun5tV9mwQBQgZvhCzG+URPQc8myeN32yRVZEfVAPCs1RW+Jvg=="
   "resolved" "https://registry.npmjs.org/@parcel/watcher/-/watcher-2.0.4.tgz"
@@ -1252,6 +1240,7 @@
     "bs58" "^4.0.1"
     "cache-manager" "^3.6.0"
     "encoding" "^0.1.13"
+    "tweetnacl" "^1.0.3"
 
 "@solana/octane-server@file:/root/octane/packages/server":
   "resolved" "file:packages/server"
