@@ -1,26 +1,21 @@
 {
-    "compilerOptions": {
-        "target": "esnext",
-        "skipLibCheck": true,
-        "declaration": true,
-        "declarationDir": "./dist/types",
-        "outDir": "./dist",
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "baseUrl": "./src",
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitReturns": true,
-        "paths": {
-            "@solana/spl-token": [
-                "../node_modules/@solana/spl-token"
-            ],
-        }
-    },
-    "include": ["./src/**/*"]
+  "compilerOptions": {
+    "target": "es2020",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "allowUnusedLabels": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@solana/spl-token": ["../node_modules/@solana/spl-token"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "quoteStyle": "single"
 }
