@@ -1,25 +1,24 @@
 {
-    "compilerOptions": {
-        "target": "es2020",
-        "module": "es2020",
-        "skipLibCheck": true,
-        "allowUnusedLabels": true,
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "module": "commonjs",
-        "esModuleInterop": true,
-        "strict": false,
-	"resolveJsonModule": true,
-	"isolatedModules": true,
-	"jsx": "preserve",
-	"paths": {
-            "@solana/spl-token": [
-                "./node_modules/@solana/spl-token"
-            ],
-            "@solana/octane-core": [
-                "/root/octane/packages/core"
-            ],
-        }
+  "compilerOptions": {
+    "target": "es2020",
+    "skipLibCheck": true,
+    "allowUnusedLabels": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+        "@solana/spl-token": [
+            "./node_modules/@solana/spl-token"
+        ],
+        "@solana/octane-core": [
+            "/root/octane/packages/core"
+        ],
+      }
     },
     "include": ["pages", "src"],
     "exclude": ["node_modules"],
