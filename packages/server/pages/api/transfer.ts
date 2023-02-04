@@ -61,9 +61,16 @@ export default async function (request: NextApiRequest, response: NextApiRespons
             Buffer.from(base58.decode(signature))
         );
 
+        const confirmationStrategy = {
+            signature,
+            blockhash: transaction.recentBlockhash,
+            lastValidBlockHeight: transaction.lastValidBlockHeight
+        };
+
         await sendAndConfirmRawTransaction(
             connection,
             transaction.serialize(),
+            confirmationStrategy,
             {commitment: 'confirmed'}
         );
 
